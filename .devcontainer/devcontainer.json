@@ -14,8 +14,8 @@
           "/usr/bin/python3"
         ],
         },
-  "postCreateCommand": 'python -m ipykernel install --user',
-    // "postStartCommand": 'julia -e "using Pkg; Pkg.activate(pwd()); Pkg.instantiate()"'
+  // "postCreateCommand": '',
+  // "postStartCommand": ''
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
