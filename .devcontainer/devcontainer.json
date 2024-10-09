@@ -8,12 +8,18 @@
       "ms-toolsai.jupyter"
    ],
   "settings": { 
+        "python.defaultInterpreterPath": "/opt/conda/bin/python",
+        "python.terminal.activateEnvironment": true,
 				"jupyter.kernels.excludePythonEnvironments": [
           "/usr/bin/python3"
         ],
-	},
-	// "postCreateCommand": '',
-	// "postStartCommand": 'julia -e "using Pkg; Pkg.activate(pwd()); Pkg.instantiate()"'
+        "jupyter.defaultKernel": {
+            "language": "python",
+            "name": "base (Python 3.11.9)"  // Name of the kernel as shown in VSCode
+            }
+        },
+      // "postCreateCommand": '',
+    // "postStartCommand": 'julia -e "using Pkg; Pkg.activate(pwd()); Pkg.instantiate()"'
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
