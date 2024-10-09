@@ -13,12 +13,8 @@
 				"jupyter.kernels.excludePythonEnvironments": [
           "/usr/bin/python3"
         ],
-        "jupyter.defaultKernel": {
-            "language": "python",
-            "name": "base (Python 3.11.9)"  // Name of the kernel as shown in VSCode
-            }
         },
-      // "postCreateCommand": '',
+  "postCreateCommand": 'python -m ipykernel install --user',
     // "postStartCommand": 'julia -e "using Pkg; Pkg.activate(pwd()); Pkg.instantiate()"'
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
